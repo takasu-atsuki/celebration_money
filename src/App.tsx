@@ -4,12 +4,12 @@ import { Counter } from './features/counter/Counter';
 import { Home } from './features/components/Home';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Home />
     </div>
   );
-}
+};
 
 export default App;
