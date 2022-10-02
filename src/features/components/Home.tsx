@@ -1,11 +1,7 @@
-import React, { FC } from 'react';
+import React, { FC, useEffect, memo } from 'react';
 
-export const Home: FC = () => {
-  return (
-    <>
-      <div>
-        <h1>HOME 画面</h1>
-      </div>
-    </>
-  );
-};
+export const Home: FC = memo(() => {
+  useEffect(() => {}, []);
+
+  return <></>;
+});

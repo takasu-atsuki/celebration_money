@@ -1,0 +1,13 @@
+.card {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.card__content {
+  align-items: center;
+}
+.modal__circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
